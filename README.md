@@ -1,4 +1,11 @@
 # Kindle Bulk Add to Collection
+[![GitHub Release](https://img.shields.io/github/v/release/zahroc/kindle-bulk-add-to-collection)](https://github.com/zahroc/kindle-bulk-add-to-collection/releases/latest)
+[![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-Install-green)](https://greasyfork.org/en/scripts/607180-kindle-bulk-add-to-collection)
+[![License](https://img.shields.io/github/license/zahroc/kindle-bulk-add-to-collection)](https://github.com/zahroc/kindle-bulk-add-to-collection/blob/main/LICENSE)
+[![Greasy Fork Installs](https://img.shields.io/greasyfork/dt/607180)](https://greasyfork.org/en/scripts/607180-kindle-bulk-add-to-collection/stats)
+![Tampermonkey](https://img.shields.io/badge/Tampermonkey-Supported-black)
+![Firefox](https://img.shields.io/badge/Firefox-Tested-orange)
+![Development](https://img.shields.io/badge/Development-Vibe%20Coding-purple)
 
 A free Tampermonkey userscript for adding Amazon Kindle books to an existing collection in batches. The original v1.5 automation was successfully used on a library of 3,070 books in Firefox.
 
@@ -19,13 +26,39 @@ This project demonstrates how human problem-solving, AI-assisted programming, an
 
 ## Installation
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/).
-2. [Install the userscript](https://raw.githubusercontent.com/zahroc/kindle-bulk-add-to-collection/main/KindleBulkAddToCollection.user.js) and approve installation.
-3. Open [Amazon US — Manage Your Books](https://www.amazon.com/hz/mycd/digital-console/contentlist/booksAll/dateDsc/).
-4. Create your destination collection in Amazon first, if necessary. Refresh the books page and enter its exact name in the floating panel.
-5. Leave **Preview only** checked and click **Start / Resume**. No collection changes are saved in preview mode.
-6. Uncheck preview and leave automatic advancement unchecked to test one page. Confirm the prompt and verify the actual collection contents.
-7. Navigate to the next unprocessed page, enable automatic advancement and start again. Monitor the first few batches.
+### Prerequisites
+
+- Firefox web browser (tested)
+- Tampermonkey browser extension
+- An Amazon.com account
+- An existing Kindle collection
+
+### Option 1 — Greasy Fork (Recommended)
+
+[Install from Greasy Fork](https://greasyfork.org/en/scripts/607180-kindle-bulk-add-to-collection)
+
+Click Install and confirm the installation in Tampermonkey.
+
+### Option 2 — GitHub
+
+[Install directly from GitHub](https://raw.githubusercontent.com/zahroc/kindle-bulk-add-to-collection/main/KindleBulkAddToCollection.user.js)
+
+### Option 3 — Manual Installation
+
+Download the userscript from the
+[latest GitHub release](https://github.com/zahroc/kindle-bulk-add-to-collection/releases/latest)
+and import it into Tampermonkey.
+
+### Getting Started
+
+1. Sign into your Amazon account.
+2. Open Manage Your Content and Devices.
+3. Navigate to your Kindle books.
+4. Enter the exact name of an existing collection.
+5. Run in Preview mode first.
+6. Disable Preview mode when ready.
+7. Enable automatic page advancement if desired.
+8. Click Start / Resume.
 
 ## Features
 
