@@ -2,6 +2,21 @@
 
 A free Tampermonkey userscript for adding Amazon Kindle books to an existing collection in batches. The original v1.5 automation was successfully used on a library of 3,070 books in Firefox.
 
+## Development Story
+
+This project was created using AI-assisted development, commonly referred to as **vibe coding**, in collaboration with OpenAI's ChatGPT.
+
+The project originated from a real-world need to organize a personal Amazon Kindle library containing more than 3,000 books without manually processing hundreds of pages.
+
+Development involved iterative coding, browser DOM inspection, troubleshooting, real-world testing, and refinement based on actual results.
+
+The original v1.5 automation engine successfully processed all 3,070 Kindle books across 123 pages.
+
+This project demonstrates how human problem-solving, AI-assisted programming, and practical testing can turn a repetitive manual task into a useful open-source application.
+
+**Project creator and maintainer:** zahroc  
+**AI development assistant:** OpenAI ChatGPT
+
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/).
